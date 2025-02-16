@@ -11,6 +11,7 @@ To override main_B.py
 ```sh
 podman run --rm -e AIPROXY_TOKEN=$AIPROXY_TOKEN -p 8000:8000 $IMAGE_NAME uvicorn main_B:app --host 0.0.0.0 --port 8000
 ```
+I have also added USER_EMAIL in .env
 
 
 
