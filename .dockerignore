@@ -1,0 +1,6 @@
+# Ignore environment files and virtual environment
+.env
+__pycache__
+*.pyc
+venv/
+datagen.py
